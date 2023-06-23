@@ -31,7 +31,7 @@ class EdgeNgram implements \Spameri\ElasticQuery\Mapping\FilterInterface
 
 	public function getType(): string
 	{
-		return 'edge_ngram';
+		return 'customEdgeNgram';
 	}
 
 
